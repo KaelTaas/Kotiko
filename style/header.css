@@ -7,7 +7,7 @@
 }
 .header__inner {
     display: grid;
-    grid-template-columns: 1.6fr 2fr 220px;
+    grid-template-columns: 1fr 2fr 220px;
     align-items: center;
     text-align: center;
     gap: 20px;
@@ -38,6 +38,23 @@
     justify-content: center;
     gap: 30px;
 }
+
+.themeToggle {
+    width: 60px;
+    height: 60px;
+    background: var(--accent-color);
+    transition: var(--transition);
+    border: 1px solid var(--accent-color);
+}
+.themeToggle svg{
+    transform: scale(4.5);
+    transition: var(--transition);
+}
+.themeToggle path{
+    fill: var(--general-bg);
+    transition: var(--transition);
+}
+
 .header__location {
     display: flex;
     max-width: 174px;
