@@ -160,7 +160,7 @@
 } */
 .header__socials:active {
     color: var(--accent-color);
-    background: var(--general-bg);
+    background: transparent;
     border: 1px solid var(--accent-color);
     box-shadow: 5px 5px 30px;
     cursor: pointer;

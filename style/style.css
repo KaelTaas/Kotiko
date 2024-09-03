@@ -574,12 +574,6 @@
 
 }
 
-.small-title {
-    color: #242424;
-    font-size: 26px;
-    font-weight: 600;
-    line-height: 1.4;
-}
 
 .conditions__inc-list {
     display: flex;
@@ -1026,7 +1020,7 @@
     margin-bottom: 10px;
     border: 1px solid var(--accent-color);
     border-radius: 20px;
-    background: var(--general-bg);
+    background: transparent;
 }
 
 .accordion-list__item:last-child {
@@ -1066,7 +1060,7 @@
 .accordion-list__control-icon {
     border: 1.5px solid var(--accent-color);
     border-radius: 50%;
-    background: var(--general-bg);
+    background: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3267,7 +3261,7 @@
 
     .header__socials:hover {
         color: var(--accent-color);
-        background: var(--general-bg);
+        background: transparent;
         border: 1px solid var(--accent-color);
         box-shadow: 5px 5px 30px;
         cursor: pointer;
@@ -3349,7 +3343,7 @@
 
     .gallery__prev:hover {
         color: var(--accent-color);
-        background: var(--general-bg);
+        background: transparent;
         border: 1px solid var(--accent-color);
         box-shadow: 5px 5px 20px;
         cursor: pointer;
@@ -3362,7 +3356,7 @@
 
     .gallery__next:hover {
         color: var(--accent-color);
-        background: var(--general-bg);
+        background: transparent;
         border: 1px solid var(--accent-color);
         box-shadow: 5px 5px 20px;
         cursor: pointer;
@@ -3380,7 +3374,7 @@
 
     .roomcams__link:hover {
         box-shadow: 5px 5px 30px var(--accent-color);
-        background: var(--general-bg);
+        background: transparent;
     }
 
     .roomcams__link:hover span {
@@ -3435,7 +3429,7 @@
 
     .header__socials:active {
         color: var(--accent-color);
-        background: var(--general-bg);
+        background: transparent;
         border: 1px solid var(--accent-color);
         box-shadow: 5px 5px 30px;
         cursor: pointer;
