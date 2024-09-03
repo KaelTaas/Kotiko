@@ -328,7 +328,7 @@
             infoArrow.classList.toggle('roomcams__svg--open')
         }
     });
-    
+
 
     jQuery(($) => {
         if ($(window).width() < 401) {
@@ -457,12 +457,29 @@
     });
     const navList = document.querySelector('.burger-nav__list');
     navList.addEventListener('click', event => {
-        
-            body.classList.remove('body--opened-menu')
+
+        body.classList.remove('body--opened-menu')
     });
 })();
 
 // ======================================================
+// темная тема
+
+(function () {
+    $('.themeToggle').click(function () {
+        $('.body').toggleClass('dark-theme');
+        $('.small-title').toggleClass('dark-theme');
+        $('.booking__form').toggleClass('dark-theme');
+        $('.about__alert').toggleClass('dark-theme');
+        $('.accordion-content__item').toggleClass('dark-theme');
+        $('.location').toggleClass('dark-theme');
+        $('.modal__window').toggleClass('dark-theme');
+        $('.burger-nav__list').toggleClass('dark-theme');
+        $('.burger-nav').toggleClass('dark-theme');
+    });
+})();
+
+
 
 
 

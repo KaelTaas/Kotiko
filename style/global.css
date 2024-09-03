@@ -19,6 +19,14 @@ html {
     font-weight: 400;
     line-height: 1.4;
 }
+.body-dark {
+    font-family: "Montserrat", "Arial", sans-serif;
+    color: var(--general-bg);
+    background: var(--general-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
 
 .body--fixed {
     overflow-y: hidden;
@@ -237,12 +245,20 @@ html {
     opacity: 1;
     visibility: visible;
     transition: var(--transition);
+
 }
 
 
 .title {
     font-size: 40px;
     font-weight: 600;
+}
+
+.small-title {
+    color: #242424;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.4;
 }
 
 .burger-icon {
@@ -592,4 +608,21 @@ html {
 .body--opened-menu .burger__span3 {
     transform: rotate(45deg);
     top: 52px;
+}
+
+
+
+.dark-theme {
+    background: #242424;
+    color: var(--general-bg);
+}
+
+.dark-theme .booking__form,
+.dark-theme .about__alert,
+.dark-theme .accordion-content__item,
+.dark-theme .location,
+.dark-theme .modal__window,
+.dark-theme .burger-nav__list,
+.dark-theme .burger-nav {
+    background: #3d3838;
 }
