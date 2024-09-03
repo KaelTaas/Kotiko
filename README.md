@@ -1,2 +1,2 @@
-#KOTIKO
+KOTIKO
 cat hotel website
